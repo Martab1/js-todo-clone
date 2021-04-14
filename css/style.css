@@ -1,0 +1,49 @@
+
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: rgba(144, 187, 170, 0.651);
+}
+
+/* LAYOUT */
+h1{
+    margin-bottom: 30px;
+}
+
+.app{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.add-input{
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.template li.text{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(119, 177, 145, 0.747);
+    
+}
+
+.template li.text:last-child{
+    margin-bottom: 0;
+}
