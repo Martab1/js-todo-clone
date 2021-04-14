@@ -68,11 +68,11 @@ li{
     
 }
 
-i .fa-trash-alt{
+i.fa-trash-alt{
     opacity: 0.6;
 }
 
-i .fa-trash-alt:hover{
+i.fa-trash-alt:hover{
    opacity:1;
 }
 
