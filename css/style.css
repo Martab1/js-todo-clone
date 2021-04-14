@@ -22,9 +22,9 @@ h1{
 
 h1 i{
     font-size: 20px;
-    border-bottom: 1px solid #fff;
     padding-bottom: 5px;
-    vertical-align: middle;
+    vertical-align:baseline ;
+    margin-left: 5px;
 }
 
 .app{
@@ -67,6 +67,8 @@ li{
     cursor: pointer;
     
 }
+
+
 
 i.fa-trash-alt{
     opacity: 0.6;
