@@ -20,6 +20,12 @@ h1{
     text-align: center;
 }
 
+h1 i{
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    vertical-align: middle;
+}
 
 .app{
     width: 600px;
@@ -62,11 +68,11 @@ li{
     
 }
 
-i{
+i .fa-trash-alt{
     opacity: 0.6;
 }
 
-i:hover{
+i .fa-trash-alt:hover{
    opacity:1;
 }
 
