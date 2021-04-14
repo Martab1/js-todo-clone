@@ -9,35 +9,33 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,200;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <div class="app">
 
-        <h1>TO DO LIST</h1>
+        <header>
+            <h1>TO DO LIST</h1>
+        </header>
 
-        <input type="text" class= "add-input" placeholder="inserisci testo">
-
-        <ul class="template">
-            <li class="text">test
-                <i class="fas fa-trash-alt"></i>
-            </li>
-
-            <li class="text">test
-                <i class="fas fa-trash-alt"></i>
-            </li>
-            
-            
-        </ul>
-
+        <main>
+            <input type="text" class= "add-input" placeholder="inserisci testo">
+            <ul class="list"></ul>
+        </main>
+    
     </div>
 
     <!-- TEMPLATE LIST-->
-    <!-- <ul class="template">
-        <li class="text">test</li>
-        <i class="fas fa-trash-alt"></i>
-        
-    </ul> -->
+    <div class="template" style="display:none;">
+        <li>
+            <span class="text"></span>
+            <i class="fas fa-trash-alt"></i>
+         </li>
+       
+    </div>
 
     
     <!-- jquery -->
